@@ -1,0 +1,50 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["Calculator_Simulink.c:41c62"]=1;
+    this.traceFlag["Calculator_Simulink.c:49c62"]=1;
+    this.traceFlag["Calculator_Simulink.c:57c67"]=1;
+    this.traceFlag["Calculator_Simulink.c:64c37"]=1;
+    this.traceFlag["Calculator_Simulink.c:71c62"]=1;
+    this.traceFlag["Calculator_Simulink.c:78c62"]=1;
+    this.traceFlag["Calculator_Simulink.c:84c45"]=1;
+    this.traceFlag["Calculator_Simulink.c:102c65"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["Calculator_Simulink.c:41"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:42"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:49"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:50"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:57"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:58"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:64"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:71"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:78"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:84"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:90"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:91"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:93"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:102"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:107"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:108"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:109"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:110"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:112"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:113"]=1;
+    this.lineTraceFlag["Calculator_Simulink.c:114"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:38"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:39"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:44"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:45"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:46"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:51"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:52"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:53"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:54"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:55"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:56"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:57"]=1;
+    this.lineTraceFlag["Calculator_Simulink.h:58"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
