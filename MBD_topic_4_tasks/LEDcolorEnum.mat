@@ -1,0 +1,8 @@
+classdef LEDcolor
+    enumeration
+        RED
+        GREEN
+        BLUE
+    end
+end
+
